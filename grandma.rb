@@ -2,8 +2,10 @@
 def speak_to_grandma
   if (string == "I love you Grandma!")
     return "HUH?! SPEAK UP SONNY!"
-    elsif (string == string.upcase)
-    return "NO, NOT SINCE 1938"
+  elsif (string == string.upcase)
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif (string == "How are you Grandma!")
+  return "NO NOT SINCE 1938!"
   else
     return "HUH?! SPEAK UP SONNY!"
   end
